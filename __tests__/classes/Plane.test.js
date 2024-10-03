@@ -15,6 +15,7 @@ describe ("Plane", () => {
     it("has an empty passangers array", () => {
         expect(plane.getPassengers()).toEqual([])
     })
+    // Need to change this to use a person class!
     it("can add passangers", () => {
         expect(() => {
             let passenger = "p1"
